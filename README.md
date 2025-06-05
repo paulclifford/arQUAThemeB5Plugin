@@ -15,4 +15,5 @@ Deploy:
 
 1. Clone this repo into `~/atom/plugins`
 1. From `~/atom` run `npm install` and then `npm run build`
+1. Run `php symfony cc`
 1. Activate the theme via the AtoM admin UI

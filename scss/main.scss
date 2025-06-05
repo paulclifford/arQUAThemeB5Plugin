@@ -1,0 +1,68 @@
+/*
+
+Customize variables:
+
+- Check the ../../arDominionB5Plugin/scss/variables.scss file.
+- Check the B5 documentation (https://getbootstrap.com/docs/5.0/customize/sass/).
+- Import B5 functions, variables and mixins if needed.
+
+*/
+
+@import "../../arDominionB5Plugin/scss/main.scss";
+
+/*
+
+Extend:
+
+- Add extra SCSS and CSS imports.
+- Add custom styles directly.
+
+*/
+
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Volkhov&display=swap");
+
+// QUL colours from 2024 website theme
+$black: #212121;
+$blue-dark: #001c41;
+$blue-light: #0b66a3;
+$blue-lighter: #e9ecef;
+$blue: #002452;
+$copper-6a625c: #6a625c;
+$copper-908982: #908982;
+$copper-b3aea8: #b3aea8;
+$copper-e3e1de: #e3e1de;
+$red-dark: #7e072a;
+$red-light: #c31035;
+$red: #940c28;
+$yellow-dark: #d8a30d;
+$yellow-light: #fcd569;
+$yellow: #fabd0f;
+$white: #fff;
+
+body {
+  font-family: "Open Sans", sans-serif; // this is the default font anyways?
+  color: $black;
+}
+
+a {
+  color: $blue-light;
+}
+
+.text-primary {
+  color: $blue;
+}
+
+#top-bar {
+  background-color: $blue-dark;
+  color: $white;
+}
+
+.atom-btn-secondary {
+  background-color: $blue;
+  border-color: $blue;
+  color: $white;
+}
+
+.atom-btn-white:hover i {
+  color: $blue;
+}
