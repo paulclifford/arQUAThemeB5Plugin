@@ -19,9 +19,8 @@ Extend:
 
 */
 
-// @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Volkhov&display=swap");
-
-// QUL colours
+// PC things
+// QUL colours from 2024 website theme
 $black: #212121;
 $blue-dark: #001c41;
 $blue-light: #0b66a3;
@@ -37,8 +36,16 @@ $blue: #002452;
 // $red: #940c28;
 // $yellow-dark: #d8a30d;
 // $yellow-light: #fcd569;
-// $yellow: #fabd0f;
+$yellow: #fabd0f;
 // $white: #fff;
+
+.text-primary,
+.atom-icon-link:hover i,
+.atom-icon-link:focus i,
+.atom-btn-white:hover i,
+.atom-btn-white:focus i {
+  color: $blue !important;
+}
 
 .bg-dark {
   background-color: $blue !important;
@@ -62,4 +69,19 @@ $blue: #002452;
 .nav-link:hover,
 .nav-link:focus {
   color: $blue-lighter !important;
+}
+
+.navbar-nav .dropdown-menu li:hover a {
+  background-color: $blue-lighter !important;
+}
+
+#context-menu nav {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#physical-objects {
+  background-color: #fabd0f;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
